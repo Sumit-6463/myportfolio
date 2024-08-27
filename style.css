@@ -1,0 +1,197 @@
+/* Tailwind CSS custom styles */
+
+
+
+
+/* Home section background */
+#home {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tailwind CSS custom styles */
+
+/* Home section background */
+#home {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Work section background */
+#work {
+    background-image: url('images/bg-work.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #CBD5E0;
+}
+
+section {
+    transition: all 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2B6CB0;
+}
+
+.bg-opacity-75 {
+    background-color: rgba(31, 41, 55, 0.75);
+}
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-blue-500 {
+    --tw-gradient-from: #3B82F6;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(59, 130, 246, 0));
+}
+
+.to-indigo-500 {
+    --tw-gradient-to: #6366F1;
+}
+
+.transform {
+    transform: scale(1);/* Tailwind CSS custom styles */
+
+    /* Home section background */
+    #home {
+        background-image: url('images/bg-home.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Work section background */
+    #work {
+        background-image: url('images/bg-work.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav a {
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #CBD5E0;
+    }
+
+    section {
+        transition: all 0.3s ease;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+    }
+
+    button {
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #2B6CB0;
+    }
+
+    .bg-opacity-75 {
+        background-color: rgba(31, 41, 55, 0.75);
+    }
+
+    .bg-gradient-to-r {
+        background: linear-gradient(to right, var(--tw-gradient-stops));
+    }
+
+    .from-blue-500 {
+        --tw-gradient-from: #3B82F6;
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(59, 130, 246, 0));
+    }
+
+    .to-indigo-500 {
+        --tw-gradient-to: #6366F1;
+    }
+
+    .transform {
+        transform: scale(1);
+    }
+
+    .transition-transform {
+        transition: transform 0.3s ease;
+    }
+
+    .hover\:scale-105:hover {
+        transform: scale(1.05);
+    }
+
+    .hover\:text-gray-300:hover {
+        color: #D1D5DB;
+    }
+
+    .animate-fadeIn {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+}
+
+.transform:hover {
+    transform: scale(1.05);
+}
+
+.transition-transform {
+    transition: transform 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav .flex {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+
+/* Work section background */
+#work {
+    background-image: url('images/bg-work.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add any additional custom styles here */

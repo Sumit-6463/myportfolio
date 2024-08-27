@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Web Designer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+    <style>
+        html,
+        body {
+            scroll-behavior: smooth;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-black">
+    <nav class="bg-gradient-to-r from-blue-500 to-indigo-500 shadow-lg fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div>
+
+                    <a href="#home" class="text-2xl font-bold text-white">My Portfolio</a>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#home" class="text-white hover:text-gray-300">Home</a>
+                    <a href="#cv" class="text-white hover:text-gray-300">My CV</a>
+                    <a href="#work" class="text-white hover:text-gray-300">My Work</a>
+                    <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('/back.jpg');">
+        <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
+            <h1 class="text-5xl font-bold text-white mb-4 animate-fadeIn">Hello, I'm a Web Designer</h1>
+            <p class="text-2xl text-white mb-8 animate-fadeIn">I create beautiful and functional websites with dynamic and
+                immersive user-experience.</p>
+            <img src="image.jpeg" alt="My Photo" class="w-32 h-32 rounded-full border-4 border-white">
+        </div>
+    </section>
+
+    <section id="cv" class="bg-gray-200 py-20" >
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-6 text-center">My CV</h2>
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="p-4 border-l-4 border-blue-500">
+                        <h3 class="text-2xl font-bold mb-2">Experience</h3>
+                        <p><strong>Front-End Developer</strong> at <strong>College and Projects</strong></p>
+                    </div>
+                    <div class="p-4 border-l-4 border-green-500">
+                        <h3 class="text-2xl font-bold mb-2">Education</h3>
+                        <p><strong>Bachelor of Science in Information Technology</strong><br>RJ College, 2021 -
+                            2025</p>
+                    </div>
+                    <div class="p-4 border-l-4 border-yellow-500">
+                        <h3 class="text-2xl font-bold mb-2">Skills</h3>
+                        <div class="mb-2">
+                            <span>HTML</span>
+                            <div class="w-full bg-gray-300 rounded-full h-4">
+                                <div class="bg-blue-500 h-4 rounded-full" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <span>CSS</span>
+                            <div class="w-full bg-gray-300 rounded-full h-4">
+                                <div class="bg-green-500 h-4 rounded-full" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <span>JavaScript</span>
+                            <div class="w-full bg-gray-300 rounded-full h-4">
+                                <div class="bg-yellow-500 h-4 rounded-full" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <span>React</span>
+                            <div class="w-full bg-gray-300 rounded-full h-4">
+                                <div class="bg-red-500 h-4 rounded-full" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 border-l-4 border-red-500">
+                            <h3 class="text-2xl font-bold mb-2">Download My CV</h3>
+                            <a href="/CV Resume.pdf" class="text-blue-500 hover:text-blue-700 underline" download>My
+                                CV</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="bg-cover bg-center py-20" style="background-image: url('images/bg-work.jpg');">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-6 text-center text-">My Work and Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Add your project details here -->
+                <div
+                    class="bg-gray-800 bg-opacity-75 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform">
+                    <h3 class="text-xl font-bold mb-2 text-white">Chatbot Application</h3>
+                    <p class="text-white">Created a mobile chat app using MIT App Inventor, integrating ChatGPT API for
+                        real-time question answering. Designed user interface for smooth interaction and integrated
+                        ChatGPT for natural language processing and response generation.</p>
+                </div>
+                <div
+                    class="bg-gray-800 bg-opacity-75 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform">
+                    <h3 class="text-xl font-bold mb-2 text-white">E-Commerce Platform</h3>
+                    <p class="text-white">Demonstrates my expertise in product photography, and user-friendly navigation
+                        highlighting efficient product categorization, order management, and payment integration.</p>
+                </div>
+                <div
+                    class="bg-gray-800 bg-opacity-75 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform">
+                    <h3 class="text-xl font-bold mb-2 text-white">EdTech Website</h3>
+                    <p class="text-white">Showcases my interactive learning experiences, accessible content, and
+                        user-friendly navigation</p>
+                </div>
+                <div
+                    class="bg-gray-800 bg-opacity-75 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform">
+                    <h3 class="text-xl font-bold mb-2 text-white">Dynamic Gaming Websites</h3>
+                    <p class="text-white">Showcases dynamic visuals, engaging user interactions, and community-building
+                        features.
+                    </p>
+                </div>
+                <div
+                    class="bg-gray-800 bg-opacity-75 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform">
+                    <h3 class="text-xl font-bold mb-2 text-white">Event Website</h3>
+                    <p class="text-white">Demonstrates clear event information, ticketing integration, and visually
+                        appealing design.</p>
+                </div>
+                <!-- Repeat for more projects -->
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-gray-200 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-6 text-center">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <p>"This is the best web designer I have ever worked with!"</p>
+                    <p class="mt-4 text-right">- Vishal Gupta</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <p>"Amazing creativity and great attention to detail."</p>
+                    <p class="mt-4 text-right">- Sam Altman</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <p>"He offers an in-depth look into the world of web design, covering everything from e-commerce to
+                        interactive experiences. The variety of project examples is inspiring and the insights into user
+                        experience and accessibility are invaluable."</p>
+                    <p class="mt-4 text-right">- Ansh Mehra</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-200 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-6 text-center">Contact Me</h2>
+            <form id="contactForm" class="bg-white shadow-md rounded-lg p-6 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-black text-sm font-bold mb-2" for="name">Name</label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                        id="name" type="text" placeholder="Your Name" required>
+                    <p id="nameError" class="text-red-500 text-xs hidden">Name is required.</p>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-black text-sm font-bold mb-2" for="email">Email</label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Your Email" required>
+                    <p id="emailError" class="text-red-500 text-xs hidden">Email is required.</p>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-black text-sm font-bold mb-2" for="message">Message</label>
+                    <textarea
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                        id="message" rows="4" placeholder="Your Message" required></textarea>
+                    <p id="messageError" class="text-red-500 text-xs hidden">Message is required.</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transform hover:scale-105 transition-transform"
+                        type="submit">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-4 mb-4">
+                <a href="https://twitter.com" target="_blank" class="text-blue-500 hover:text-blue-700"><i
+                        class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="text```html
+-blue-500 hover:text-blue-700"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com" target="_blank" class="text-blue-500 hover:text-blue-700"><i
+                        class="fab fa-github fa-2x"></i></a>
+            </div>
+            <p class="text-black">© 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
